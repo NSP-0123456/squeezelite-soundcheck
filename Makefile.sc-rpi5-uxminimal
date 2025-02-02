@@ -33,7 +33,7 @@ endif
 # $(info MARCH=$(MARCH))
 # $(info MTUNE=$(MTUNE))
 
-OPTS = -DLINKALL -DNO_FAAD
+OPTS = -DNO_FAAD
 CFLAGS = -Wall -fPIC -Ofast $(MARCH) $(MTUNE) $(TUNEOPTS) -pipe
 
 include Makefile.sc-rpi-ux
